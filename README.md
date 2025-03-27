@@ -13,7 +13,6 @@
 - [Technical Implementation](#technical-implementation)  
 - [Visualization](#visualization)  
 - [Customization](#customization)  
-- [Troubleshooting](#troubleshooting)  
 
 ---  
 
@@ -110,6 +109,7 @@ def generate_distance_matrix()  # Creates CSV from SHP
 def load_geospatial_data()      # Loads processed data  
 
 # TSPOptimizer  
+
 def optimize()                  # Main evolutionary loop  
 def _genetic_operators()        # Adaptive crossover/mutation  
 def _visualize_results()        # Dual-panel matplotlib output  
@@ -126,7 +126,7 @@ def _visualize_results()        # Dual-panel matplotlib output
 2. **Convergence Analysis**  
    - Fitness evolution plot with annotations for minimum distance.  
 
-
+<img width="1250" alt="wykres" src="https://github.com/user-attachments/assets/9de48843-3fda-4aa9-975e-49d6e1af0fc0" />
 
 ---  
 
