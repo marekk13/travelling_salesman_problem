@@ -9,7 +9,7 @@ from typing import Tuple, Optional, List
 class DataHandler:
     """Handles geospatial data loading and processing"""
 
-    def __init__(self, data_dir: str = r"C:\Users\Marek\PycharmProjects\problem_komiwojazera"):
+    def __init__(self, data_dir: str = r""):
         self.data_dir = Path(data_dir)
         self.raw_data_path = self.data_dir / "Miejscowosci.zip"
         self.distances_matrix_path = self.data_dir / "distances_matrix.csv"
